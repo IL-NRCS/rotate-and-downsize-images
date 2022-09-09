@@ -8,13 +8,13 @@
 
 ## Project Summary
 ***
+ 
+ downsamples (to 300 dpi) and rotates any imagery in the user's chosen directory.
+ 
+ Images are all rotated 90 degrees. All images are downsaved to 300 dpi .jpeg in their source folder (with the name "<in_file>_downsampled.jpg").  
 
-For processing APFO imagery for ISGS. This is a draft ArcPro (2.x) script for M.Barrett at ISGS.
 
 ## Parameters
 ***
 
-ArcPro user puts in a root input folder directory and runs it. Images that require rotation are rotated. All images are downsaved to 300 dpi .jpeg in their source folder (with the name "<in_file>_downsampled.jpg").  
-
-
-![test_script](https://user-images.githubusercontent.com/111149665/188669463-78ca094e-5998-44b5-a9dc-7dd3d70474a5.JPG)
+ArcPro user puts in a root input folder directory in the 'footprint' variable and runs it. 
